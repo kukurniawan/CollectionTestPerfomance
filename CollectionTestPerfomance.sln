@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionTestPerfomance", "CollectionTestPerfomance\CollectionTestPerfomance.csproj", "{1005BE78-4989-4202-86C9-D8F31CFBDC38}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1005BE78-4989-4202-86C9-D8F31CFBDC38}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1005BE78-4989-4202-86C9-D8F31CFBDC38}.Debug|x86.Build.0 = Debug|Any CPU
+		{1005BE78-4989-4202-86C9-D8F31CFBDC38}.Release|x86.ActiveCfg = Release|x86
+		{1005BE78-4989-4202-86C9-D8F31CFBDC38}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
