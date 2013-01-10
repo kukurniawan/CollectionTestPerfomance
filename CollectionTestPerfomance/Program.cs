@@ -9,11 +9,7 @@ namespace CollectionTestPerfomance
 	class Program
 	{
 		private static int _searchIndex = 27;
-		//private const int NumberInsertedKeys = 50;
-		//private const int NumberInsertedKeys = 500;
-		//private const int NumberInsertedKeys = 5000;
 		private const int NUMBER_INSERTED_KEYS = 50000;
-		//private const int NumberInsertedKeys = 100000;
 		private const int NUMBER_TESTS = 8000;
 
 		private static readonly string[] Letters = { "A", "B", "C", "D", "E", "F", "G", "H", "I", "J" };
@@ -77,13 +73,11 @@ namespace CollectionTestPerfomance
 						ForEachTicks = Math.Min(Math.Min(Math.Min(resultDict.ForEachTicks, resultSortDict.ForEachTicks), resultHash.ForEachTicks), resultSortList.ForEachTicks)
 					};
 
-				// print the results
 				PrintResults(resultDict, listDictionary.Count, min, "Dictionary");
 				PrintResults(resultSortDict, listDictionary.Count, min, "SortedDictionary");
 				PrintResults(resultHash, listDictionary.Count, min, "Hashtable");
 				PrintResults(resultSortList, listDictionary.Count, min, "SortedList");
 
-				// TRY ENDS HERE ----------
 
 			}
 			catch (Exception ex)
